@@ -1,0 +1,26 @@
+.country
+{
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    text-align: center;
+    font-size: 50px;
+    
+}
+.box {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 90px;
+    margin: 5px;
+    width: 250px; 
+    text-align: center;
+    background-color:  rgb(9, 133, 174);
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .link-white
+  {
+    text-decoration: none;
+    color: white;
+  }
+  

@@ -1,0 +1,48 @@
+.container {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.countries
+{
+    text-align:center;
+    font-family: "Times New Roman", Times, serif;   
+    font-size:50px;
+}
+.square {
+    width: calc(33.33% - 20px);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.square img {
+    max-width: 90%;
+    border-radius: 40px; 
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.para {
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+#coun
+{
+    background-color: brown;
+    border: 1px solid brown;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+    .square {
+        width: calc(50% - 20px);
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .square {
+        width: calc(100% - 20px);
+    }
+}

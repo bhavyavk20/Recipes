@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.fav
+{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 50px;
+    padding: 30px;   
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center; 
+}
+.like
+{
+   margin: 20px;
+}
+.like img
+{
+  width: 300px; 
+  height: auto; 
+  border-radius: 10px;
+}
+.btn-container
+  {
+    display: flex;
+    justify-content: center;
+  }
+  .btn
+  {
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: rgb(161, 16, 64);
+    color: white;
+    border-color:  rgb(161, 16, 64);
+  }
